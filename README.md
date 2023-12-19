@@ -1,7 +1,7 @@
 # Inferring Hybrid Neural Fluid Fields from Videos
 This is the official code for Inferring Hybrid Neural Fluid Fields from Videos (NeurIPS 2023).
 
-![teaser](assets/demo_hyfluid.gif)
+![teaser](assets/demo.gif)
 
 **[[Paper](https://arxiv.org/pdf/2312.06561.pdf)] [[Project Page](https://kovenyu.com/hyfluid/)]**
 
