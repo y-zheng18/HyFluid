@@ -1,0 +1,16 @@
+ConfigArgParse==1.5.3
+imageio==2.27.0
+imageio-ffmpeg==0.4.5
+ipdb==0.13.13
+kornia==0.6.11
+lpips==0.1.4
+matplotlib==3.5.3
+numpy==1.24.2
+opencv_python==4.6.0.66
+plyfile==1.0.2
+scikit-image==0.20.0
+scikit-learn==1.3.2
+taichi==1.5.0
+torch==2.0.1
+tqdm==4.65.0
+vtk==9.2.6

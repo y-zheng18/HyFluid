@@ -1,0 +1,4 @@
+python run_nerf_jointly.py --config configs/scalarflowreal.txt --lrate_decay 100000 --N_iters 100000 --i_weights 10000 \
+ --expname exp_real/p_v128_128 --lrate 5e-4 --lrate_den 1e-4  --rec_weight 10000 --d2v_weight 10 --coef_den2vel 0.2 --vel_weight 1 --d_weight 0 --proj_weight 1 --flow_weight 0.001 --vel_num_layers 2 --i_video 10000 --i_print 100 --finest_resolution 256 --base_resolution 16 --finest_resolution_t 128 --base_resolution_t 16 --num_levels 16 --N_samples 192 --N_rand 512 --log2_hashmap_size 19 \
+ --ft_path ./logs/exp_real/density_256_128/300000.tar  --vel_scale 0.025 \
+ --finest_resolution_v 128 --base_resolution_v 16 --finest_resolution_v_t 128 --base_resolution_v_t 16 --no_vel_der
